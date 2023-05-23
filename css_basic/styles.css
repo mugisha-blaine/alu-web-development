@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
   }
   
 main {
@@ -12,17 +13,24 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
-
+    background-color: bisque;
+    font-style: italic;
     
-    
-    text-align: left;
   }
   
 aside {
     flex: 1;
     overflow-y: auto;
   }
-  
+
+footer{
+  background-color: palegreen;
+  text-align: center;
+}
+
+header{
+  background-color:dimgrey;
+}
   
   
   
