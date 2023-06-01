@@ -1,0 +1,464 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(dark-light.jpg);
+    background-size: cover;
+    
+    background-position: center;
+
+}
+header
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5px;
+    margin-top: 15px;
+
+}
+.mylogo
+{
+    position: absolute;
+    left: 36px;
+    
+}
+.mylinks
+{
+    right: 34px;
+    position: absolute;
+
+}
+.mylinks a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 10px;
+}
+main{
+    margin-top: 3px;
+}
+
+
+.banner
+{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    
+}
+.banner h1
+{
+   
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 2px;
+    
+}
+.banner p
+{ 
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+.btn {
+    width: 200px;
+    height: 35px; 
+    border-radius: 22px;
+    background-color: purple;
+    color: white;
+    box-shadow: 0 2px 4px rgba(12 ,16, 20, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.mysongs
+{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+
+}
+.grinn
+{
+   position: absolute;
+   font-size: 32px;
+   left: 41%;
+   right: 39%;
+   color: #fff;
+
+}
+.purple
+{
+    color: purple;
+}
+.savage
+{
+    flex-direction: row;
+    padding-top: 100px;
+    left: 10%;
+    padding-left: 40px; 
+    padding-right: 50px; 
+    position: relative;
+    
+}
+.savage h3
+{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: aqua;
+   
+}
+.savage p{
+    color: #fff;
+}
+.savage img
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.savage p
+{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: aqua,
+}
+.quote
+{
+    background-color: purple;
+    width: 100%;
+    height: 400px;
+    
+}
+.quote1{
+    display: flex;
+    position: relative;
+    top: 25%;
+    left: 7%;
+
+
+}
+
+ blockquote
+{
+    color:white;
+    font-size: 15px;
+    font-weight:400;
+    width: 670px;
+
+}
+.quote1 p
+{
+    color: #fff; 
+    margin-left: 34px;
+    font-style: bold;
+
+} 
+.quote1 img
+{
+    border-radius: 50%;
+}      
+.quotes
+{
+    
+    font-style: italic;
+    position: relative;
+  
+}
+
+.smilling
+{
+    background-color: #fff; 
+    width: 100%;
+}
+
+.smilling h1
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    left: 2%;
+}
+.video
+{
+    /* justify-content: center;
+    align-items: center; */
+    left: 20px;
+    margin: 10px;
+    
+}
+.video img
+{
+    margin: 5px;
+    width: 250px;
+    height: 140px;
+    padding-left: 13px;
+}
+.video h2
+{
+    width: 106px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    padding-left: 19px;
+}
+.video p
+{
+    width: 242px;
+    height: 48px;
+    font-size: 14px;
+    padding-left: 19px;
+
+}
+.massy{
+    display: flex;
+    text-align:center;
+    position: relative;
+     
+}    
+.massy img
+{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex; 
+    margin-bottom: 10px;
+}
+.massy h3
+{
+    width: 86px;
+    height: 27px;
+    color: purple;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.star
+{
+    display:flex;
+    /* position: relative; */
+    width: 250px;
+    align-items: center;
+    padding: 3px;
+    /* justify-content: space-between; */
+
+    
+}
+.star img
+{
+    width: 15px;
+    height: 15px;
+    margin: -1px;
+    align-items: center;
+    margin-left: 5px;
+
+}
+.star p
+{
+
+    width: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 27px;
+    margin-left: 5px;
+    text-align: right;
+    margin-left: 20px;
+}
+.membership
+{
+    height: 502px;
+    width: 100%;
+    background-color: #071629;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 0;
+}
+.membership h1
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 80px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.members
+{
+    display: flex;
+    left: 100px;
+    right: 50px
+    
+}
+.free
+{
+    position: relative;
+    width: 80%;
+    left: 5%;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.free img
+{
+    height: 45px;
+    width: 50px;
+    /* justify-content: center; */
+}
+.free h2
+{
+    height: 26px;
+    width: 256px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.free p
+{
+    color:#fff;
+    height: 52px;
+    width: 212px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;;
+    
+    text-align: center;
+
+
+}
+.faq
+{
+    background: #fff;
+    width: 100%;
+    justify-content: center;
+    
+    
+
+}
+.faq h1
+{
+    height: 75px;
+    width: 136px;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.container-rows
+{
+    height: 707px;
+    margin-top: -10px;  
+    display: grid;
+    justify-content: center;
+
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 20px; */
+
+} 
+.questions
+{
+    display: grid;
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-items: center; */
+    padding-left: 25px;
+    padding-right: 25px;
+    /* position: relative; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+  
+
+}
+.items
+{
+    /* border: 1px solid #ccc; */
+    padding: 10px; 
+    height: 242px;
+    width: 350px;
+    left: 570px;
+    margin-bottom: -170px;
+    margin-left: 25px; 
+    gap: 10px;
+
+
+}
+.items p
+{
+    height: 192px;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    
+    
+
+
+}
+.items h2
+{
+    height: 20px;
+    width: 145px;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+
+    
+
+}
+footer
+{
+    background-color: green;
+
+}
+.logos
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.logos img
+{
+    position: absolute
+    left: 20px;
+}
+.links
+{
+    position: absolute;
+    right: 30px;
+    left: 150px;
+}
+.links img
+{
+    height: 16px;
+    width: 7px;
+   
+
+
+}
