@@ -1,9 +1,17 @@
-body
+html,body
 {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(dark-light.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.smiles, header
+{
+    background-image: url(./images/dark-light.jpg);
     background-size: cover;
-    
     background-position: center;
+    background-repeat: no-repeat;
 
 }
 header
@@ -20,12 +28,14 @@ header
 {
     position: absolute;
     left: 36px;
+    top: 20px;
     
 }
 .mylinks
 {
     right: 34px;
     position: absolute;
+    top: 20px;
 
 }
 .mylinks a
@@ -37,7 +47,7 @@ header
     margin-right: 10px;
 }
 main{
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
 
@@ -63,7 +73,8 @@ main{
 .banner p
 { 
     margin-bottom: 15px;
-    letter-spacing: 5px;
+    word-spacing: 25px;
+    color: #ffffff;
 }
 .btn {
     width: 200px;
@@ -111,7 +122,7 @@ main{
 .savage h3
 {
     font-style: italic;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: aqua;
    
@@ -135,9 +146,8 @@ main{
 .quote
 {
     background-color: purple;
-    width: 100%;
-    height: 400px;
-    
+    /* width: 100%; */
+    height: 300px;
 }
 .quote1{
     display: flex;
@@ -178,7 +188,7 @@ main{
 .smilling
 {
     background-color: #fff; 
-    width: 100%;
+    /* width: 100%; */
 }
 
 .smilling h1
@@ -187,7 +197,7 @@ main{
     font-size: 32px;
     font-weight: 700;
     padding: 80px;
-    margin-bottom: 0px;
+    
 }
 .container
 {
@@ -253,11 +263,11 @@ main{
 .star
 {
     display:flex;
-    /* position: relative; */
+    
     width: 250px;
     align-items: center;
     padding: 3px;
-    /* justify-content: space-between; */
+  
 
     
 }
@@ -284,7 +294,7 @@ main{
 .membership
 {
     height: 502px;
-    width: 100%;
+    /* width: 100%; */
     background-color: #071629;
     justify-content: center; 
     align-items: center;
@@ -320,7 +330,7 @@ main{
 {
     height: 45px;
     width: 50px;
-    /* justify-content: center; */
+   
 }
 .free h2
 {
@@ -350,6 +360,7 @@ main{
     background: #fff;
     width: 100%;
     justify-content: center;
+    height: 700px;
     
     
 
@@ -371,40 +382,40 @@ main{
 }
 .container-rows
 {
-    height: 707px;
+    height: 750pxpx;
     margin-top: -10px;  
     display: grid;
     justify-content: center;
 
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* gap: 20px; */
+    
 
 } 
 .questions
 {
     display: grid;
     flex-direction: row;
-    /* justify-content: space-around;
-    align-items: center; */
+    
     padding-left: 25px;
     padding-right: 25px;
-    /* position: relative; */
+    
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
+    gap: 20px;
+    padding-bottom: 50px;
   
 
 }
 .items
 {
-    /* border: 1px solid #ccc; */
-    padding: 10px; 
+    padding: 20px; 
     height: 242px;
     width: 350px;
     left: 570px;
-    margin-bottom: -170px;
+    margin-bottom: -170px; 
     margin-left: 25px; 
-    gap: 10px;
+    justify-content:space-around;
+    
+    
 
 
 }
@@ -434,31 +445,55 @@ main{
 }
 footer
 {
-    background-color: green;
+    background-color: #071629;
+    height: 249px;
+
+}
+.container-1
+{
+    
+
+    position: relative;
+   
 
 }
 .logos
 {
     display: flex;
     flex-direction: row;
+    top: 10px;
+    align-items: center;
 
 }
 .logos img
 {
-    position: absolute
-    left: 20px;
+    position: relative;
+    left: 50px;
+    top: 90px;
+    
+
+    
 }
 .links
 {
     position: absolute;
-    right: 30px;
-    left: 150px;
+    right: 240px;
+    width: 130px;
 }
 .links img
 {
-    height: 16px;
-    width: 7px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
    
-
-
+}
+.container-1 p
+{
+    text-align: center;
+    font-weight: 800;
+    color: #ffffff;
+    font-size:12px;
+    margin-top: 165px;
+    
 }
